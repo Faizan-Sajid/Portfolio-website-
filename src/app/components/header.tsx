@@ -1,15 +1,12 @@
 
 
 
-import About from "./about";
-import Clients from "./clients";
-import Contact from "./contact";
+
 import Countup from "./countup";
 import Intro from "./intro";
-import Projects from "./projects";
+
 import Hero from "./rightside";
 import Services from "./services";
-import Skill from "./skills";
 
 function Header() {
   return (
@@ -22,13 +19,10 @@ function Header() {
       {/* Right Section (Hero & About) */}
       <div className="col-span-12 md:col-span-9 ">
         <Hero />
-        <About />
+        {/* <About /> */}
         <Services />
         <Countup/>
-        <Skill />
-        <Projects />
-        <Clients deviceType="desktop" />
-        <Contact/>
+       
         
       </div>
     </header>

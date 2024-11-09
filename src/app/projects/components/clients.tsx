@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import pic from "../../../public/about.jpg.webp";
-import pic1 from "../../../public/1709152804915.jpeg";
-import pic2 from "../../../public/1712789639976.jpeg";
+import pic from "../../../../public/about.jpg.webp"
+import pic1 from "../../../../public/1709152804915.jpeg";
+import pic2 from "../../../../public/1712789639976.jpeg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

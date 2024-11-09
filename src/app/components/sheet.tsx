@@ -17,11 +17,10 @@ import {
 
 const navItems = [
   { href: "./", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#services", label: "Services" },
-  { href: "#work", label: "Work" },
-  { href: "#contact", label: "Contact" },
+  { href: "/about", label: "About" },
+  
+  { href: "/projects", label: "Work" },
+  { href: "/contact", label: "Contact" },
   ];
 
 

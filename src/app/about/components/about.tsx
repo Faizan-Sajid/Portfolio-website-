@@ -1,6 +1,11 @@
+import Menuu from "@/app/components/sheet";
+
 function About (){
     return(
+        <>
+        <Menuu/>
         <section id="about" className="font-sans bg-[#d2d2d3] p-5">
+            <h1 className="text-lg sm:text-[36px] font-bold tracking-wider text-center">ABOUT ME</h1>
             <div className="pb-5">
             <h2 className="text-[22px] text-black pt-10 tracking-widest">ABOUT US</h2>
             <h2 className="text-[22px] text-black pl-5 tracking-widest">WHO Am I ?</h2>
@@ -14,6 +19,7 @@ function About (){
 
             </div>
         </section>
+        </>
     )
 }
 export default About;

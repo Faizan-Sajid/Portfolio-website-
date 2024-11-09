@@ -1,13 +1,17 @@
 import Image from "next/image";
-import gig from "../../../public/kaus-UI.gif"
-import gif from "../../../public/betterme-web.gif"
-import gif3 from "../../../public/Website-Development-2.gif"
+import gig from "../../../../public/kaus-UI.gif"
+import gif from "../../../../public/betterme-web.gif"
+import gif3 from "../../../../public/Website-Development-2.gif"
 import Link from "next/link";
+import Menuu from "@/app/components/sheet";
 
 
 function Projects (){
     return(
+        <>
+        <Menuu/>
         <section id="work">
+             <h1 className="text-lg sm:text-[36px] font-bold tracking-wider underline font-serif  text-center pt-6">Our Work</h1>
             <div className="pt-20 p-12 text-center md:text-left">
                 <h3 className="text-lg text-gray-400 tracking-widest font-serif">MY WORK</h3>
                 <h1 className="text-lg sm:text-[30px] text-black tracking-widest font-serif pt-2 pl-3">RECENT WORK</h1>
@@ -66,6 +70,7 @@ function Projects (){
                    
                 </div>
         </section>
+        </>
         
     )
 }
